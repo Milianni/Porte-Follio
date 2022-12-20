@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Simple Calculator</h1>
+    <script>
+         {
+            let name= prompt("what is your name")
+        const random = Math.floor(Math.random() * 100) + 1;
+           let numberPlayer=prompt("chose number enter 1 -100?")
+            
+            while(numberPlayer != random){
+              if(numberPlayer>random){
+            console.log("it is less");
+        }if(numberPlayer<random){
+            console.log("it is more");
+
+        }if(numberPlayer===random){
+         console.log(name + "wins");
+        }
+              }  }
+       
+     
+    </script>
+</body>
+
+</html>
